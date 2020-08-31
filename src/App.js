@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 function App() {
   return (
-    <Route>
+    <Router>
       <div className="app">
         <Switch>
           <Route path="/checkout">
@@ -20,7 +20,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Route>
+    </Router>
   );
 }
 

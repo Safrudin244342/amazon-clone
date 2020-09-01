@@ -8,6 +8,7 @@ function Product({ id, title, image, price, rating }) {
         <p>{title}</p>
       
         <p class='productPrice'>
+          <small>$</small>
           <strong>{price}</strong>
         </p>
 
